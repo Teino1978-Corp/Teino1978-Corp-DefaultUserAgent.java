@@ -6,7 +6,7 @@ public static String getDefaultUserAgent(Context context) {
 		ua = Util.getUserAgent(context);
 	} else {
 		try {
-			Constructor<websettings> constructor = WebSettings.class.getDeclaredConstructor(
+			Constructor<WebSettings> constructor = WebSettings.class.getDeclaredConstructor(
 				Context.class, WebView.class);
 			constructor.setAccessible(true);
 			try {
