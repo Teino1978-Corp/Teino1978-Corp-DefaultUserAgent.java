@@ -1,3 +1,5 @@
+// http://matsuhilog.blogspot.jp/2013/05/performance-analytics-in-android.html
+// https://code.google.com/p/codenameone/issues/detail?id=294
 public static String getDefaultUserAgent(Context context) {
 	String ua;
 	if (Build.VERSION.SDK_INT >= 17) {
